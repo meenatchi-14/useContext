@@ -1,0 +1,58 @@
+
+.App {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+  font-family: sans-serif;
+ 
+  
+}
+.prod-card {
+ 
+  display: grid;
+  
+  width: 40rem;
+  height: 28rem;
+  border: 2px solid rgb(95, 94, 94);
+  border-radius: 0.5rem;
+  margin: 1rem;
+ 
+}
+img {
+  width: 9rem;
+  height: 10rem;
+  object-fit:contain;
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+
+}
+.cart-action {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+ margin: 2rem;
+
+  
+}
+.num{
+  width: 3rem ;
+  height: 2rem ;
+}
+
+.text{
+  
+  font-weight: bolder;
+}
+
+.margin{
+  margin-top: 4rem;
+  margin-left: 1.5rem;
+}
+.m{
+  margin-left: 2rem;
+}
+.small1{
+  text-align: start !important;
+    font-size:0.7rem;
+}
+
